@@ -16,7 +16,7 @@ esac done
 
 [ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/Soliprem/dotfiles"
 [ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/Soliprem/LARBS-fork/master/progs.csv"
-[ -z "$aurhelper" ] && aurhelper="yay"
+[ -z "$aurhelper" ] && aurhelper="paru"
 [ -z "$repobranch" ] && repobranch="master"
 
 ### FUNCTIONS ###
